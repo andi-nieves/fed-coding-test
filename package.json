@@ -7,6 +7,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.0",
+    "gh-pages": "^3.0.0",
     "history": "^4.10.1",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
@@ -37,8 +38,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "http://andi-nieves.github.io/fed-coding-test",
   "eslintConfig": {
     "extends": "react-app"
   },
