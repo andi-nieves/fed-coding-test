@@ -6,7 +6,7 @@ import './Header.scss';
 function Header({ position = "", children }) {
     return <Navbar sticky={position} className="fed-nav-bar" bg="none" expand="lg">
         <Container className={position}>
-            <Navbar.Brand href="/"><img src={Logo} alt="Adrenaline Logo" /></Navbar.Brand>
+            <Navbar.Brand href={process.env.PUBLIC_URL}><img src={Logo} alt="Adrenaline Logo" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
