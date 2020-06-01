@@ -1,10 +1,17 @@
 import React from 'react';
+import { Container, Button } from 'react-bootstrap';
+import Header from 'Components/Header';
 
 function App() {
   return (
-    <div className="App">
+    <>
+    <Header />
+    <Container>
+      
       <h1>Test</h1>
-    </div>
+      <Button variant="primary">Test</Button>
+    </Container>
+    </>
   );
 }
 
