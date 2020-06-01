@@ -5,7 +5,10 @@ import createSagaMiddleware from "redux-saga";
 import { persistStore } from "redux-persist";
 import { createStore, compose, applyMiddleware } from "redux";
 
-const history = require('history').createBrowserHistory();
+const history = require('history').createBrowserHistory({
+    basename: process.env.PUBLIC_URL
+});
+
 export { history };
 
 /** Saga Middleware */
