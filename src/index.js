@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-     <PersistGate loading={null} persistor={persistor}>
+    <PersistGate loading={null} persistor={persistor}>
       <Provider store={store}>
         <Routes />
       </Provider>

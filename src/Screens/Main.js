@@ -1,17 +1,19 @@
 import React from 'react';
-import { Container, Button } from 'react-bootstrap';
-import Header from 'Components/Header';
+import { Container, Row, Col } from 'react-bootstrap';
+import Card from 'Components/Card';
+import data from 'data.json';
 
 function App() {
+  const renderData = () => data.map(d => <Col key={d.id} sm="12" md="6">
+    <Card imgName={d.thumb} title={d.title} title_long={d.title_long} tag={d.tag} id={d.id} />
+  </Col>);
+
   return (
-    <>
-    <Header />
     <Container>
-      
-      <h1>Test</h1>
-      <Button variant="primary">Test</Button>
+      <Row>
+        {renderData()}
+      </Row>
     </Container>
-    </>
   );
 }
 

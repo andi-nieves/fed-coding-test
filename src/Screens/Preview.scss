@@ -1,0 +1,48 @@
+.item-preview {
+    h1 {
+        margin-bottom: 20px;
+    }
+    .img {
+        width: 100%;
+    }
+    button {
+        padding: 0;
+        color: #3852F7 !important;
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    span.date {
+        position: relative;
+        color: #D8D8D8 !important;
+        margin-left: 13px;
+        font-weight: bold;
+        font-size: 12px;
+        .dash {
+            display: block;
+            height: 1px;
+            width: 10px;
+            background-color: #D8D8D8;
+            position: absolute;
+            top: 8px;
+        }
+    }
+    .text {
+        font-family: 'Merriweather';
+    }
+    .tag {
+        position: absolute;
+        top: 0;
+        font-size: 12px;
+        font-weight: lighter;
+        background-color: #fff;
+        padding: {
+            top: 5px;
+            right: 6px;
+            bottom: 5px;
+        };
+        writing-mode: vertical-rl;
+        color: #ccc;
+    }
+
+}

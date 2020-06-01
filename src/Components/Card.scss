@@ -1,0 +1,35 @@
+.card {
+    border: none !important;
+    font-family: "Roboto" !important;
+    .card-body {
+        font-weight: bold;
+        padding: {
+            left: 0;
+            right: 0;
+        }
+    }
+    img {
+        border-radius: 0 !important;
+    }
+    .btn-link {
+        padding: {
+            left: 0;
+            right: 0;
+        }
+        font-weight: bold;
+    }
+    .tag {
+        position: absolute;
+        top: 0;
+        font-size: 12px;
+        font-weight: lighter;
+        background-color: #fff;
+        padding: {
+            top: 5px;
+            right: 6px;
+            bottom: 5px;
+        };
+        writing-mode: vertical-rl;
+        color: #ccc;
+    }
+}
