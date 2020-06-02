@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/fed-coding-test/static/css/main.03b4620a.chunk.css",
-    "main.js": "/fed-coding-test/static/js/main.3f534044.chunk.js",
-    "main.js.map": "/fed-coding-test/static/js/main.3f534044.chunk.js.map",
+    "main.css": "/fed-coding-test/static/css/main.789f9f91.chunk.css",
+    "main.js": "/fed-coding-test/static/js/main.10c2d154.chunk.js",
+    "main.js.map": "/fed-coding-test/static/js/main.10c2d154.chunk.js.map",
     "runtime-main.js": "/fed-coding-test/static/js/runtime-main.c18b7c90.js",
     "runtime-main.js.map": "/fed-coding-test/static/js/runtime-main.c18b7c90.js.map",
     "static/css/2.af3c1da9.chunk.css": "/fed-coding-test/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.5941c06e.chunk.js": "/fed-coding-test/static/js/2.5941c06e.chunk.js",
-    "static/js/2.5941c06e.chunk.js.map": "/fed-coding-test/static/js/2.5941c06e.chunk.js.map",
+    "static/js/2.9f33e170.chunk.js": "/fed-coding-test/static/js/2.9f33e170.chunk.js",
+    "static/js/2.9f33e170.chunk.js.map": "/fed-coding-test/static/js/2.9f33e170.chunk.js.map",
     "index.html": "/fed-coding-test/index.html",
-    "precache-manifest.b9046af11789c8d4e8b0910acc2a8dc6.js": "/fed-coding-test/precache-manifest.b9046af11789c8d4e8b0910acc2a8dc6.js",
+    "precache-manifest.c9a51c4db2290e9329f55b4acfe73429.js": "/fed-coding-test/precache-manifest.c9a51c4db2290e9329f55b4acfe73429.js",
     "service-worker.js": "/fed-coding-test/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/fed-coding-test/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.03b4620a.chunk.css.map": "/fed-coding-test/static/css/main.03b4620a.chunk.css.map",
-    "static/js/2.5941c06e.chunk.js.LICENSE.txt": "/fed-coding-test/static/js/2.5941c06e.chunk.js.LICENSE.txt",
+    "static/css/main.789f9f91.chunk.css.map": "/fed-coding-test/static/css/main.789f9f91.chunk.css.map",
+    "static/js/2.9f33e170.chunk.js.LICENSE.txt": "/fed-coding-test/static/js/2.9f33e170.chunk.js.LICENSE.txt",
     "static/media/1001.jpg": "/fed-coding-test/static/media/1001.1539fa57.jpg",
     "static/media/1001_thumb.jpg": "/fed-coding-test/static/media/1001_thumb.1534c150.jpg",
     "static/media/1002.jpg": "/fed-coding-test/static/media/1002.c7487b14.jpg",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.c18b7c90.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.5941c06e.chunk.js",
-    "static/css/main.03b4620a.chunk.css",
-    "static/js/main.3f534044.chunk.js"
+    "static/js/2.9f33e170.chunk.js",
+    "static/css/main.789f9f91.chunk.css",
+    "static/js/main.10c2d154.chunk.js"
   ]
 }
