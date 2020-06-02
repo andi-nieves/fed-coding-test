@@ -30,19 +30,4 @@
     .text {
         font-family: 'Merriweather';
     }
-    .tag {
-        position: absolute;
-        top: 0;
-        font-size: 12px;
-        font-weight: lighter;
-        background-color: #fff;
-        padding: {
-            top: 5px;
-            right: 6px;
-            bottom: 5px;
-        };
-        writing-mode: vertical-rl;
-        color: #ccc;
-    }
-
 }

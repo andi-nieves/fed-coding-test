@@ -1,0 +1,17 @@
+.tag {
+    position: absolute;
+    top: 0;
+    font-size: 12px;
+    font-weight: lighter;
+    background-color: #fff;
+    padding: {
+        top: 5px;
+        left: 6px;
+        bottom: 5px;
+    };
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    -webkit-writing-mode: tb-rl; 
+    -ms-writing-mode: tb-rl;
+    color: #ccc;
+}
